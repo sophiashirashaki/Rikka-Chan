@@ -74,30 +74,37 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/ced5d2101277b480bf500.jpg), ɪᴍ Rikka-Chan ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
+[──「 Takanashi Rikka 」──](https://telegra.ph/file/ced5d2101277b480bf500.jpg)
+
+Hello!!
+I am Rikka-Chan Bot group management. Maintenance By [Anko Loli].
+`Thank you for using this bot! Hit` /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ Rikka ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Loliop_probot?startgroup=true"),
+            text="➕️ ADD Rikka To Your Group ➕️", url="t.me/Loliop_probot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
+        InlineKeyboardButton(text="About Me", callback_data="yone_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="Update", url=f"https://t.me/{UPDATE_CH}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="HELP❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 
-`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
+`Main commands:[≪(⊙_⊙)≫](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 
+`× /start: Starts me! You've probably already used this.
+
+× /help: Sends this message; I'll tell you more about myself.`
+
+If you have any questions about Rikka, Click [Here](https://t.me/Alvin_Image_Editor_Group)"""
 
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
 
