@@ -342,14 +342,14 @@ def export_data(update, context):
     context.bot.sendDocument(
         current_chat_id,
         document=open("RikkaBotz}.backup".format(chat_id), "rb"),
-        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `Rikka-Chan_Backup` was specially made for notes 📚.".format(
+        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `Rikka-Backup` was specially made for notes 📚.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("YoneRobot{}.backup".format(chat_id))  # Cleaning file
+    os.remove("Rikka{}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
