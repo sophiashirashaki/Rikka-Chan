@@ -14,7 +14,7 @@
   <img src="https://telegra.ph/file/ced5d2101277b480bf500.jpg">
 </p>
 
-# YoneRobot
+# Rikka-Chan
 Me On Telegram [✨ Rikka-Chan✨](https://t.me/Loliop_probot)
 
 ## How To Host
@@ -27,6 +27,7 @@ CREDITS
 ❤️ MashaRobot = Dark Prince 
 ❤️ DaisyX = Inuka
 ❤️ TheHamkerCat = WBB
+❤️ Yone Robot = Kittu
 
 This Bot Is Developed By Rikka-Chan ! 
 
