@@ -99,14 +99,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-Main commands:[≪(⊙_⊙)≫](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 
+Main commands:[××](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 
 × /start: Starts me! You've probably already used this.
 
 × /help: Sends this message; I'll tell you more about myself.
 
 
-If you have any questions about Rikka, Join @Alvin_Image_Editor_Group.
-"""
+`If you have any questions about Rikka, Join` @Alvin_Image_Editor_Group."""
 
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
 
