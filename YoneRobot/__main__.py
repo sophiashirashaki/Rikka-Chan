@@ -77,7 +77,7 @@ PM_START_TEXT = """
 ──「 [Takanashi Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 」──
 
 Hello!!
-I am Rikka-Chan Bot group management. Maintenance By [Anko Loli].
+I am Rikka-Chan Bot group management. Maintenance By [Anko Loli](https://t.me/erosei_1).
 `Thank you for using this bot! Hit` /help   
 """
 
@@ -89,11 +89,11 @@ buttons = [
     [
         InlineKeyboardButton(text="About Me", callback_data="yone_"),
         InlineKeyboardButton(
-            text="Update", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Command Help❔", callback_data="help_back"),
     ],
 ]
 
