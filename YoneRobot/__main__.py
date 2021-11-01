@@ -109,7 +109,7 @@ Main commands [Takanashi Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jp
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @kittu5588 \
+ You can support the project via [Paypal](#) or by contacting @erosei_1 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
