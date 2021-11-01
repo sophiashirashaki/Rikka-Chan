@@ -101,9 +101,9 @@ buttons = [
 HELP_STRINGS = """
 Main commands [Takanashi Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jpg): 
 × /start: Starts me! You've probably already used this.
-× /help: Sends this message; I'll tell you more about myself.
+× /help: Sends this message; I'll tell you more about myself. """
 
-If you are confused or there is a bug, please report it to @erosei_1."""
+
 
 
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
