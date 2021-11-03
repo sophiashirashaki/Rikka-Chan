@@ -76,9 +76,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ──「 [Takanashi Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 」──
 
-Hello!!
-I am Rikka-Chan Bot group management. Maintenance By [Anko Loli](https://t.me/erosei_1).
-`Thank you for using this bot! Hit` /help   
+*Hello!!*
+*I am Rikka-Chan Bot group management.* Maintenance By [Onee-Chan](https://t.me/erosei_1).
+*Thank you for using this bot! Hit* /help   
 """
 
 buttons = [
@@ -103,7 +103,7 @@ HELP_STRINGS = """
 × /start: Starts me! You've probably already used this.
 × /help: Sends this message; I'll tell you more about myself. """
 
-
+If you are still confused about Bot Rikka, you can join the [Support Group](https://t.me/Alvin_Image_Editor_Group)
 
 
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
