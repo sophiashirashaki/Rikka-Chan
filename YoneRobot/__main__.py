@@ -84,7 +84,7 @@ I am Rikka-Chan Bot group management. Maintenance By [Anko Loli](https://t.me/er
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Rikka To Your Group ➕️", url="t.me/Loliop_probot?startgroup=true"),
+            text="➕️ Add Rikka To Your Group ➕️", url="t.me/Loliop_probot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About Me", callback_data="yone_"),
@@ -93,13 +93,13 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Command Help❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Commands Help❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-Main commands [Takanashi Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jpg): 
+*Main commands:* [≪•◦ ❈ ◦•≫](https://telegra.ph/Walrikka-11-03): 
 × /start: Starts me! You've probably already used this.
 × /help: Sends this message; I'll tell you more about myself. """
 
