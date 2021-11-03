@@ -101,9 +101,9 @@ buttons = [
 HELP_STRINGS = """
 *Main commands:* [≪•◦ ❈ ◦•≫](https://telegra.ph/Walrikka-11-03): 
 × /start: Starts me! You've probably already used this.
-× /help: Sends this message; I'll tell you more about myself. """
+× /help: Sends this message; I'll tell you more about myself. 
 
-If you are still confused about Bot Rikka, you can join the [Support Group](https://t.me/Alvin_Image_Editor_Group)
+If you are still confused about Bot Rikka, you can join the [Support Group](https://t.me/Alvin_Image_Editor_Group). """
 
 
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
