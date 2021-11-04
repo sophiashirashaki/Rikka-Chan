@@ -99,7 +99,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*Main commands:* [≪•◦ ❈ ◦•≫](https://telegra.ph/Walrikka-11-03): 
+*Main commands:* [≪•◦ ❈ ◦•≫](https://telegra.ph/file/f5d69d4c0880e1888f19f.jpg)
 × /start: Starts me! You've probably already used this.
 × /help: Sends this message; I'll tell you more about myself. 
 
