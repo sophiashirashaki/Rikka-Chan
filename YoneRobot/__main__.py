@@ -77,29 +77,29 @@ PM_START_TEXT = """
 ──「 [Takanashi Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 」──
 
 *Hello!!*
-*I am Rikka-Chan Bot group management.* Maintenance By [Onee-Chan](https://t.me/erosei_1).
+*I am Rikka-Chan Bot group management.* *Maintenance By* [Onee-Chan](https://t.me/erosei_1).
 *Thank you for using this bot! Hit* /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Rikka To Your Group ➕️", url="t.me/Loliop_probot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐑𝐈𝐊𝐊𝐀 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/Loliop_probot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About Me", callback_data="yone_"),
+        InlineKeyboardButton(text="𝐀𝐁𝐎𝐔𝐓 𝐌𝐄", callback_data="yone_"),
         InlineKeyboardButton(
-            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="Commands Help❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 𝐇𝐄𝐋𝐏❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-*Main commands:* [≪•◦ ❈ ◦•≫](https://telegra.ph/file/f5d69d4c0880e1888f19f.jpg)
+*Main commands*[>//<](https://telegra.ph/file/f5d69d4c0880e1888f19f.jpg):
 × /start: Starts me! You've probably already used this.
 × /help: Sends this message; I'll tell you more about myself. 
 
