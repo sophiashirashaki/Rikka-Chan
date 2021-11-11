@@ -74,42 +74,43 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──「 [Takanashi Rikka](https://telegra.ph/file/ced5d2101277b480bf500.jpg) 」──
+──「 [Kanata](https://telegra.ph/file/62a8fd1f95fa5a8d6c3f6.jpg) 」──
 
 *Hello!!*
-*I am Rikka-Chan Bot group management.* *Maintenance By* [Onee-Chan](https://t.me/erosei_1).
+*I am Kanata Bot group management. I'm a bot with the V-tuber Kanata theme.*
+*Maintenance By* [Anko Loli](https://t.me/erosei_1).
 *Thank you for using this bot! Hit* /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐑𝐈𝐊𝐊𝐀 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/Loliop_probot?startgroup=true"),
+            text="➕️ Add Kanata To Your Group ➕️", url="t.me/Loliop_probot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝐀𝐁𝐎𝐔𝐓 𝐌𝐄", callback_data="yone_"),
+        InlineKeyboardButton(text="About Kanata", callback_data="yone_"),
         InlineKeyboardButton(
-            text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 𝐇𝐄𝐋𝐏❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Commands Help❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-*Main commands*[>//<](https://telegra.ph/file/f5d69d4c0880e1888f19f.jpg):
+*Main commands*[>//<](https://telegra.ph/file/44b20ac91561950fed728.jpg):
 × /start: Starts me! You've probably already used this.
 × /help: Sends this message; I'll tell you more about myself. 
 
-If you are still confused about Bot Rikka, you can join the [Support Group](https://t.me/Alvin_Image_Editor_Group). """
+If you are still confused about Bot Kanata, you can join the [Support Group](https://t.me/Alvin_Image_Editor_Group). """
 
 
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @erosei_1 \
+ You can support the project via [Paypal](#) or by contacting [Anko Loli](t.me/erosei_1) \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -356,16 +357,16 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Rikka*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Kanata*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Rikka's licensed under the GNU General Public License v3.0_
+                 \n\n_Kanata's licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository](https://t.me/erosei_1).
-                 \n\nIf you have any question about Rikka, let us know at .""",
+                 \n\nIf you have any question about Kanata, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -391,7 +392,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Rikka*
+            text=""" Hi..🤗 I'm *Kanata*
                  \nHere is the [Source Code](https://github.com/sophiashirashaki) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
