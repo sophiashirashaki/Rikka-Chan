@@ -74,21 +74,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──「 [Kanata](https://telegra.ph/file/62a8fd1f95fa5a8d6c3f6.jpg) 」──
+──「 [Akeno](https://telegra.ph/file/aff019b0c26c2dfa3921b.jpg) 」──
 
 *Hello!!*
-*I am Kanata Bot group management. I'm a bot with the V-tuber Kanata theme.*
-*Maintenance By* [Anko Loli](https://t.me/erosei_1).
+*I am Akeno Bot group management. I'm a bot with the Anime High School DXD theme.*
+
+*Maintenance By* [Rey](https://t.me/helzrip).
+*Project By* [R Bot Creator](https://t.me/joinchat/XcgxzYB0WKQ3Yjll).
 *Thank you for using this bot! Hit* /help   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Kanata To Your Group ➕️", url="t.me/Loliop_probot?startgroup=true"),
+            text="➕️ Add Akeno To Your Group ➕️", url="t.me/Loliop_probot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About Kanata", callback_data="yone_"),
+        InlineKeyboardButton(text="About Akeno", callback_data="yone_"),
         InlineKeyboardButton(
             text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
@@ -100,11 +102,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-*Main commands*[>//<](https://telegra.ph/file/44b20ac91561950fed728.jpg):
+*Main commands* [>//<](https://telegra.ph/Akeno-11-12):
 × /start: Starts me! You've probably already used this.
 × /help: Sends this message; I'll tell you more about myself. 
 
-If you are still confused about Bot Kanata, you can join the [Support Group](https://t.me/Alvin_Image_Editor_Group). """
+If you are still confused about Bot Akeno, you can join the [Support Group](https://t.me/joinchat/XcgxzYB0WKQ3Yjll). """
 
 
 yone_IMG = "https://telegra.ph/file/ced5d2101277b480bf500.jpg"
@@ -357,16 +359,16 @@ def yone_about_callback(update, context):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Kanata*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Akeno*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Kanata's licensed under the GNU General Public License v3.0_
+                 \n\n_akeno's licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository](https://t.me/erosei_1).
-                 \n\nIf you have any question about Kanata, let us know at .""",
+                 \n\nIf you have any question about Akeno, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
